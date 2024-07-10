@@ -41,6 +41,7 @@ body{
     font-weight: 700;
     font-size: 15px;
     transition: transform 0.3s ease;
+    color: black;
 }
 .links a:visited
 {
