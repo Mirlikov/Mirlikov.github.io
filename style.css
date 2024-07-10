@@ -1,0 +1,67 @@
+body{
+    font-family: Poppins;
+    background: url(backround.jpg);
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-size: cover; /* Масштабирование GIF для покрытия всего фона */
+    background-repeat: no-repeat; /* Запрет повторения GIF */
+    background-position: center center; /* Центрирование GIF */
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:16px; /* Фиксация фона при прокрутке страницы */                                                                                        
+}
+.picture
+{
+
+    box-sizing: border-box;
+    border:2px solid white ;
+    border-radius: 50%;
+    pointer-events:none;
+    max-width:250px;
+}
+.nick
+{
+    color:white;
+}
+.links a
+{
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+    padding:2rem 10rem;
+    outline: none;
+    border: 2px gray solid;
+    border-radius: 30px;
+    font-family:Poppins;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+    transition: transform 0.3s ease;
+}
+.links a:visited
+{
+    color: black;
+}
+.links a:hover
+{                 
+    transform:scale(1.1);
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.links
+{
+    display: flex;
+    flex-direction: column;
+}
+.links a:not(:last-child)
+{
+    margin-bottom:15px;
+
+}
