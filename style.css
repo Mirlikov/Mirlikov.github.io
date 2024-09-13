@@ -1,6 +1,6 @@
 body{
     font-family: Poppins;
-    background: url(backround.jpg);
+    background: url(background.gif);
     background-position: center;
     margin: 0;
     padding: 0;
@@ -18,7 +18,7 @@ body{
 {
 
     box-sizing: border-box;
-    border:2px solid white ;
+    border:2px solid rgb(63, 63, 63) ;
     border-radius: 50%;
     pointer-events:none;
     max-width:250px;
@@ -31,10 +31,10 @@ body{
 {
     text-decoration: none;
     text-align: center;
-    background-color: white;
+    background-color: rgb(43, 43, 43);
     padding:2rem 10rem;
     outline: none;
-    border: 2px gray solid;
+    border: 2px rgb(20, 20, 20) solid; 
     border-radius: 30px;
     font-family:Poppins;
     cursor: pointer;
@@ -45,16 +45,17 @@ body{
 }
 .links a:visited
 {
-    color: black;
+    color: rgb(155, 155, 155);
 }
 .links a:hover
 {                 
     transform:scale(1.1);
+    border-color:rgb(43 43 43);
 }
 .main-container{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction:column;
+    align-items:center;
 }
 .links
 {
